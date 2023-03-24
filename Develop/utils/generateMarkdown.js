@@ -16,6 +16,24 @@ function generateMarkdown(data) {
 
   ## Project Description
   ${data.description}
+
+  ## Installation Instructions
+  ${data.installInstructions}
+
+  ## Usage Information
+  ${data.usage}
+
+  ## Contribution Guidelines
+  ${data.contribution}
+
+  ## Test Instructions
+  ${data.tests}
+
+  ## Github User
+  ${data.username}
+
+  ## Email
+  ${data.email}
   
 `;
 }

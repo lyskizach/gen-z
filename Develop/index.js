@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('Develop/utils/generateMarkdown.js');
+const generateMarkdown = require('/Users/lyskizach/Desktop/Bootcamp/Module 9 Challenge/gen-z/Develop/utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -38,22 +38,24 @@ const questions = [{
     name: 'username'
 }, {
     type: 'input',
-    message: 'What is tyour email address?',
+    message: 'What is your email address?',
     name: 'email'
 },
 ]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data);
+    fs.writeFile(fileName, data, function(err) {
+        err ? console.log(err) : console.log('Success!')
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
-            // const fileName = `${data.title.toLowerCase().split(' ').join('')}.md`;
-            writeToFile("README.md", generateMarkdown(data));
+            const fileName = `${data.title.toLowerCase().split(' ').join('')}.md`;
+            writeToFile(fileName, generateMarkdown(data));
         })
 }
 
