@@ -14,7 +14,7 @@ const questions = [{
     name: 'description'
 }, {
     type: 'input',
-    message: 'What are the installtion instructions for this project?',
+    message: 'What are the installation instructions for this project?',
     name: 'installInstructions'
 }, {
     type: 'input',
@@ -25,9 +25,10 @@ const questions = [{
     message: 'What are the contribution guidelines for this project?',
     name: 'contribution'
 }, {
-    type: 'input',
+    type: 'list',
     message: 'What is the license being used for this project, if any?',
-    name: 'license'
+    name: 'license',
+    choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'BSD 2-Clause License'],
 }, {
     type: 'input',
     message: 'What are the test instructions?',
@@ -40,8 +41,7 @@ const questions = [{
     type: 'input',
     message: 'What is your email address?',
     name: 'email'
-},
-]
+}]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
