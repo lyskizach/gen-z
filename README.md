@@ -23,7 +23,7 @@
 
   ## Licenses
   
-  This project is using a/an BSD 3-Clause License. \
+  This project is using a/an BSD 3-Clause License.  \
   Go to (https://opensource.org/licenses/BSD-3-Clause) to read more about this license.
 
   ## Contribution
@@ -33,7 +33,7 @@
   N/A
 
   ## Questions
-  My github username: lyskizach \
-  My Github Profile: https://github.com/lyskizach \
-  For additional questions, contact me by email at: lyski.zach@icloud.com \
+  My github username: lyskizach  \
+  My Github Profile: https://github.com/lyskizach  \
+  For additional questions, contact me by email at: lyski.zach@icloud.com  \
   

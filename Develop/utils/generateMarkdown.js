@@ -37,7 +37,7 @@ function renderLicenseSection(license) {
     return `N/A`
   } else {
     return `
-  This project is using a/an ${license}. \
+  This project is using a/an ${license}.  
   Go to ${renderLicenseLink(license)} to read more about this license.`
   }
 }
@@ -75,9 +75,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  My Github Username: ${data.username}\
-  My Github Profile: https://github.com/${data.username}\
-  For additional questions, contact me by email at: ${data.email}
+  My Github Username: ${data.username}  
+  My Github Profile: https://github.com/${data.username}  
+  For additional questions, contact me by email at: ${data.email}  
   
 `;
 }
