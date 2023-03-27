@@ -5,20 +5,20 @@
 
   ## Table Of Contents
   - [Description] (#description)
-  - [Installatio] (#installation)
+  - [Installation] (#installation)
   - [Usage] (#usage)
   - [Licenses] (#licenses)
   - [Contribution] (#contribution)
   - [Testing] (#testing)
   - [Questions] (#questions)
 
-  ## Project Description
+  ## Description
   This project is a professional README generator.
 
-  ## Installation Instructions
+  ## Installation
   Inquirer version 8.2.4 is used to run the prompt questions
 
-  ## Usage Information
+  ## Usage
   This project can be used to quickly and effectively generate a README upon data entry
 
   ## Licenses
@@ -26,10 +26,10 @@
   This project is using a/an BSD 3-Clause License.
   Go to (https://opensource.org/licenses/BSD-3-Clause) to read more about this license.
 
-  ## Contribution Guidelines
+  ## Contribution
   N/A - This project was worked upon by myself only
 
-  ## Testing Instructions
+  ## Testing
   N/A
 
   ## Questions
