@@ -75,7 +75,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.username}
+  My Github Username: ${data.username}
   My Github Profile: https://github.com/${data.username}
   For additional questions, contact me by email at: ${data.email}
   

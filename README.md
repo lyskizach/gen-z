@@ -33,7 +33,7 @@
   N/A
 
   ## Questions
-  lyskizach
+  My github username: lyskizach
   My Github Profile: https://github.com/lyskizach
   For additional questions, contact me by email at: lyski.zach@icloud.com
   
