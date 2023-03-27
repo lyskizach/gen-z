@@ -1,7 +1,7 @@
 # GEN-Z README
   ![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
 
-  ![screenshot](README Gen Screenshot.jpg)
+  ![screenshot](Develop/utils/READMEGenScreenshot.jpg)
 
   ## Table Of Contents
   * [Description] (#description)
