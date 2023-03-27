@@ -4,13 +4,13 @@
   ![screenshot](Develop/utils/READMEGenScreenshot.jpg)
 
   ## Table Of Contents
-  * [Description] (#description)
-  * [Installation Instructions] (#installInstructions)
-  * [Usage Information] (#usage)
-  * [Licenses] (#license)
-  * [Contribution Guidelines] (#contribution)
-  * [Testing Instructions] (#tests)
-  * [Questions] (#username)
+  - [Description] (#description)
+  - [Installatio] (#installation)
+  - [Usage] (#usage)
+  - [Licenses] (#licenses)
+  - [Contribution] (#contribution)
+  - [Testing] (#testing)
+  - [Questions] (#questions)
 
   ## Project Description
   This project is a professional README generator.
