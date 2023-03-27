@@ -48,30 +48,30 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table Of Contents
-  - [Description] (#Project Description)
-  - [Installation Instructions] (#installInstructions)
-  - [Usage Information] (#usage)
-  - [Licenses] (#license)
-  - [Contribution Guidelines] (#contribution)
-  - [Testing Instructions] (#tests)
-  - [Questions] (#username)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Licenses](#licenses)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Questions](#questions)
 
-  ## Project Description
+  ## Description
   ${data.description}
 
-  ## Installation Instructions
+  ## Installation
   ${data.installInstructions}
 
-  ## Usage Information
+  ## Usage
   ${data.usage}
 
   ## Licenses
   ${renderLicenseSection(data.license)}
 
-  ## Contribution Guidelines
+  ## Contribution
   ${data.contribution}
 
-  ## Testing Instructions
+  ## Testing
   ${data.tests}
 
   ## Questions
